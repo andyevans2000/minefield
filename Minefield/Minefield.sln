@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield", "Minefield\Minefield.csproj", "{7FB17245-ADEE-482F-8DBC-B2C308B4C1BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Console", "Minefield\Minefield.Console.csproj", "{7FB17245-ADEE-482F-8DBC-B2C308B4C1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.UnitTests", "Minefield.UnitTests\Minefield.UnitTests.csproj", "{2D35CD33-262B-4C83-8EDE-041161487B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Core", "Minefield.Core\Minefield.Core.csproj", "{5F4E104B-C836-479F-9BEF-11BE5B7C48AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7FB17245-ADEE-482F-8DBC-B2C308B4C1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB17245-ADEE-482F-8DBC-B2C308B4C1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB17245-ADEE-482F-8DBC-B2C308B4C1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D35CD33-262B-4C83-8EDE-041161487B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D35CD33-262B-4C83-8EDE-041161487B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D35CD33-262B-4C83-8EDE-041161487B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D35CD33-262B-4C83-8EDE-041161487B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4E104B-C836-479F-9BEF-11BE5B7C48AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4E104B-C836-479F-9BEF-11BE5B7C48AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4E104B-C836-479F-9BEF-11BE5B7C48AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4E104B-C836-479F-9BEF-11BE5B7C48AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
