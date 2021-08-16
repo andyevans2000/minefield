@@ -1,1 +1,3 @@
-# minefield
+A simple Minefield game. The game is played on a sqaure chessboard style board. Squares may have a hidden mine and the player has a number of lives. The object of the game is to get from the bottom of the board (row 1) to the top of the board (by default row 10) with at least 1 life remaining.
+
+The repository contains the core minefield components as a .net Standard library, which can be added to a dependency injection container. It also contains a sample .net Core console app that allows the user to play a simple minefield game, this demonstates adding the game to DI. There is also a suite of Xunit unit tests.
